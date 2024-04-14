@@ -1,0 +1,14 @@
+STA 17
+TCP 64995
+
+
+
+IN_REG	1 4200  0  0  5000	0  AI  @JacinaSolarnogP	   4
+HR_INT	1 2700  0  0   100	0  AO  @BojlerTemp	   4
+HR_INT	1 2701  0  0    50	0  AO  @KlimaTemp	   4
+DO_REG  2 2500  0  0     1      0  DO  @StanjeVrata        2
+DO_REG  4 2502  0  0     1      0  DO  @StanjeProzora      2
+IN_REG  1 4201  0  0   100      0  AI  @SenzorTemperature  4
+IN_REG  1 4202  0  0  9999      0  AI  @SenzorPritiska     4
+
+
